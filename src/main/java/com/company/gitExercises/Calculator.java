@@ -1,3 +1,5 @@
+package com.company.gitExercises;
+
 public class Calculator {
     public float plus(float a, float b) {
         return a + b;
