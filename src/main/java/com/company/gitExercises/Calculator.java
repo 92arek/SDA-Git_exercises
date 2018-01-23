@@ -28,6 +28,14 @@ public class Calculator {
         return result;
     }
 
+    public double squareRoot(double a) {
+        return Math.sqrt(a);
+    }
+
+    public double cubeRoot(double a) {
+        return Math.cbrt(a);
+    }
+
     public int sum(int a, int... rest) {
         int sum = a;
         for (int b : rest) {
